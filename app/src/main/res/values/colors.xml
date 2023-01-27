@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App Primary Theme color -->
+    <color name="primary">#75A30B</color>
+
+    <!-- App Secondary Theme color -->
+    <color name="secondary">#9DBD53</color>
+
+    <!-- Splash Background color -->
+    <color name="splash_background">#102E3E</color>
+
+    <!-- Tab text color -->
+    <color name="tab_unselected_text">@color/gradient_end</color>
+    <color name="tab_selected_text">@color/primary</color>
+
+    <!-- List Background color -->
+    <color name="list_background">#DCF3E9</color>
+
+    <!-- Star color -->
+    <color name="star_color">#E1AB0B</color>
+
+    <!-- Scrollbar color -->
+    <color name="gradient_start">#9BA3C5</color>
+    <color name="gradient_end">#8388A4</color>
+</resources>

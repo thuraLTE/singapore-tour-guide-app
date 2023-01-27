@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- TextAppearance for app title -->
+    <style name="TitleTextAppearance" parent="TextAppearance.AppCompat.Large">
+        <item name="android:fontFamily">@font/berkshire_swash</item>
+    </style>
+
+    <!-- Style for place images -->
+    <style name="PlaceImage">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerHorizontal">true</item>
+    </style>
+
+    <!-- Style for place names (titles) -->
+    <style name="PlaceTitle" parent="Widget.MaterialComponents.TextView">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:fontFamily">@font/luckiest_guy</item>
+    </style>
+
+    <!-- Style for place details -->
+    <style name="PlaceDetails" parent="Widget.MaterialComponents.TextView">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:fontFamily">@font/comic_neue</item>
+    </style>
+
+    <!-- Style for rating stars -->
+    <style name="RatingStars">
+        <item name="android:layout_width">20dp</item>
+        <item name="android:layout_height">20dp</item>
+        <item name="android:tint">@color/star_color</item>
+    </style>
+
+    <!-- Style for Tab Layout -->
+    <style name="TabStyle" parent="Widget.MaterialComponents.TabLayout">
+        <item name="tabGravity">center</item>
+        <item name="tabTextColor">@color/tab_unselected_text</item>
+        <item name="tabSelectedTextColor">@color/tab_selected_text</item>
+        <item name="tabIndicatorColor">@color/tab_selected_text</item>
+    </style>
+
+    <!-- Font Style for text in TabLayout -->
+    <style name="TabTextFont" parent="TextAppearance.AppCompat.Medium">
+        <item name="android:fontFamily">@font/bubblegum_sans</item>
+    </style>
+
+    <!-- Style for recycler view scrollbar -->
+    <style name="Scrollbar">
+        <item name="android:scrollbarAlwaysDrawVerticalTrack">false</item>
+        <item name="android:scrollbarStyle">insideOverlay</item>
+        <item name="android:scrollbars">vertical</item>
+        <item name="android:fadeScrollbars">true</item>
+        <item name="android:scrollbarThumbVertical">@drawable/scrollbar_thumb</item>
+        <item name="android:scrollbarSize">8dp</item>
+        <item name="android:scrollbarFadeDuration">800</item>
+        <item name="android:scrollbarDefaultDelayBeforeFade">500</item>
+    </style>
+
+</resources>
